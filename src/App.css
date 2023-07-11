@@ -1,0 +1,40 @@
+
+*{
+  scroll-behavior: smooth;
+}
+
+.app{
+  min-height: 100vh;
+  background-color: #39445a;
+  color: white;
+  padding-top: 140px;
+  padding-bottom:130px ;
+}
+
+@media screen and (max-width:700px) {
+
+  .app{
+    padding-top: 70px;
+  }
+  
+}
+
+.pageTitle{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2vw;
+  
+  padding-bottom: 10px;
+
+  border-radius: 50px;
+  color: white;
+}
+@media screen and (max-width:1000px) {
+
+  .pageTitle{
+    font-size: 6.4vw;
+    ;
+  }
+}
